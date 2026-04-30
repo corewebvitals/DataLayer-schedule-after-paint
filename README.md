@@ -1,3 +1,14 @@
+# DataLayer-schedule-after-paint — moved
+
+> ⚠️ **This repo is archived.** Active development continues in the consolidated experiments hub.
+>
+> - **Live demo:** https://corewebvitals.github.io/pagespeed/experiments/datalayer-schedule-after-paint/demo.html
+> - **Source:** https://github.com/corewebvitals/pagespeed/tree/main/experiments/datalayer-schedule-after-paint
+>
+> The `datalayer.js` and `datalayer-min.js` files in this repo are kept in place so existing `raw.githubusercontent.com` embeds continue to work, but no further updates will land here.
+
+---
+
 # INP Yield Pattern for `dataLayer.push`
 
 This script defers `dataLayer.push` calls in Google Tag Manager until after the next browser paint. The pattern helps prevent long input delay (INP) regressions caused by synchronous `push` operations during user interaction.
@@ -14,4 +25,4 @@ Calling `dataLayer.push` synchronously during interaction can block rendering an
 
 ## Usage
 
-Add the contents of this script AFTER your GTM tag
+Add the contents of this script AFTER your GTM tag.
